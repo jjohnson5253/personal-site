@@ -29,6 +29,18 @@ class Header extends Component {
       this.titles = this.props.sharedData.titles.map(x => [ x.toUpperCase(), 1500 ] ).flat();
     }
 
+    if (this.props.sharedBasicInfo) {
+      var networks = this.props.sharedBasicInfo.social.map(function (network) {
+        return (
+          <span key={network.name} className="m-4">
+            <a href={network.url} target="_blank" rel="noopener noreferrer">
+              <i className={network.class}></i>
+            </a>
+          </span>
+        );
+      });
+    }
+
     const HeaderTitleTypeAnimation = React.memo( () => {
       return <Typical className="title-styles" steps={this.titles} loop={50} />
     }, (props, prevProp) => true);
@@ -45,6 +57,9 @@ class Header extends Component {
               </h1>
               <div className="title-container">
                 <HeaderTitleTypeAnimation />
+              </div>
+              <div className="col-md-12">
+              <div className="social-links">{networks}</div>
               </div>
             </div>
           </div>
