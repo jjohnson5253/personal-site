@@ -32,17 +32,10 @@
         ],
         "url": "https://www.slickleopards.com/",
         "technologies": [
-          {
-            "class": "devicon-react-plain",
-            "name": "Angular"
-          },
-          {
-            "name": "Solana"
-          }
         ]
       },
       {
-        "title": "Auto Mountain Reserver",
+        "title": "Ski Reservation Bot",
         "startDate": "2020",
         "description": "We were tired of waiting for reservations to open up so we made this script to automatically reserve Ikon mountain ⛷️⛰️ reservations when they became available. 😎",
         "images": [
