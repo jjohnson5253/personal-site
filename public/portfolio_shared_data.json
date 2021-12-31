@@ -12,6 +12,11 @@
         "name": "twitter",
         "url": "https://twitter.com/Kodiak847",
         "class": "fab fa-twitter"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/jake-e-johnson/",
+        "class": "fab fa-linkedin"
       }
     ],
     "image": "myProfile.jpeg"
