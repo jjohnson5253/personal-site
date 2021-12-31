@@ -1,0 +1,104 @@
+{
+    "basic_info": {
+      "description_header": "Hello!",
+      "description": "👋 I'm Jake. I'm interested in projects that involve web3, Ethereum, Solana, NFTS, ML, AR/VR, or game dev! 🌎",
+      "section_name": {
+        "about": "About me",
+        "projects": "Things I've Built",
+        "skills": "Skills",
+        "experience": "Experience"
+      }
+    },
+    "projects": [
+      {
+        "title": "NFT 3D Gallery",
+        "startDate": "2021",
+        "description": "🖼️ A simple cross chain NFT gallery built in Unreal Engine 4!",
+        "images": [
+          "images/portfolio/nft-gallery/p1.png",
+          "images/portfolio/nft-gallery/p2.png"
+        ],
+        "url": "https://github.com/jjohnson5253/nft-gallery",
+        "technologies": [
+        ]
+      },
+      {
+        "title": "NFT Mint Site",
+        "startDate": "2021",
+        "description": "Created an candy machine NFT minting site for Solana that allows a user to mint a randomly generated NFT that I created!",
+        "images": [
+          "images/portfolio/nft-mint-site/p1.png",
+          "images/portfolio/nft-mint-site/p2.png"
+        ],
+        "url": "https://www.slickleopards.com/",
+        "technologies": [
+          {
+            "class": "devicon-react-plain",
+            "name": "Angular"
+          },
+          {
+            "name": "Solana"
+          }
+        ]
+      },
+      {
+        "title": "Auto Mountain Reserver",
+        "startDate": "2020",
+        "description": "We were tired of waiting for reservations to open up so we made this script to automatically reserve Ikon mountain ⛷️⛰️ reservations when they became available. 😎",
+        "images": [
+          "images/portfolio/auto-mountain-reserver/automtnres1.png",
+          "images/portfolio/auto-mountain-reserver/automtnres2.png"
+        ],
+        "url": "https://github.com/jjohnson5253/auto_mountain_reserver",
+        "technologies": [
+          {
+            "class": "devicon-python-plain",
+            "name": "Python"
+          }
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "company": "Manifest",
+        "title": "Web3 Consultant",
+        "years": "11.2021 - present",
+        "mainTech": [
+          "Unreal Engine"
+        ],
+        "technologies": [
+          "Unreal Engine",
+          "Ethereum",
+          "C++",
+          "Solidity"
+        ]
+      },
+      {
+        "company": "Freelance",
+        "title": "Web3 Developer",
+        "years": "01.2021 - 11.2021",
+        "mainTech": [
+          "Solana"
+        ],
+        "technologies": [
+          "Solana",
+          "Rust",
+          "React",
+          "JavaScript"
+        ]
+      },
+      {
+        "company": "Medtronic",
+        "title": "Embedded Systems Software Engineer",
+        "years": "01.2020 - present",
+        "mainTech": [
+          "C++"
+        ],
+        "technologies": [
+          "C++",
+          "Python",
+          "GoogleTest"
+        ]
+      }
+    ]
+  }

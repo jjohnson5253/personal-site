@@ -1,0 +1,55 @@
+{
+  "basic_info": {
+    "name": "Jake Johnson",
+    "titles": [ "Software Engineer", "Web3 Developer", "Embedded Systems Engineer" ],
+    "social": [
+      {
+        "name": "github",
+        "url": "https://github.com/jjohnson5253",
+        "class": "fab fa-github"
+      },
+      {
+        "name": "twitter",
+        "url": "https://twitter.com/Kodiak847",
+        "class": "fab fa-twitter"
+      }
+    ],
+    "image": "myProfile.jpeg"
+  },
+  "skills": {
+    "icons": [
+      {
+        "name": "C++",
+        "level": "65"
+      },
+      {
+        "name": "Ethereum",
+        "level": "95"
+      },
+      {
+        "name": "Solidity",
+        "level": "95"
+      },
+      {
+        "name": "Solana",
+        "level": "95"
+      },
+      {
+        "name": "Rust",
+        "level": "95"
+      },
+      {
+        "name": "JavaScript",
+        "level": "70"
+      },
+      {
+        "name": "Unreal Engine",
+        "level": "70"
+      },
+      {
+        "name": "Python",
+        "level": "70"
+      }
+    ]
+  }
+}
