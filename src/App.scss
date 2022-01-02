@@ -88,6 +88,16 @@ header {
 	border-radius: 8px;
 }
 
+.skills-tile:hover {
+	-webkit-transform: scale(1.2);
+	-moz-transform: scale(1.2);
+	transform: scale(1.2);
+	z-index: 10;
+	-webkit-box-shadow: 0 5px 5px rgba(0, 0, 0, .7);
+	-moz-box-shadow: 0 5px 5px rgba(0, 0, 0, .7);
+	box-shadow: 0 5px 5px rgba(0, 0, 0, .7);
+}
+
 .language {
 	font-size: 25px;
 	background-color: #e9d5a1;
@@ -435,7 +445,7 @@ footer a:visited {
 
 footer a:hover,
 footer a:focus {
-	color: #fff;
+	color: rgb(201, 199, 199);
 }
 
 .social-links {
