@@ -82,7 +82,9 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Header sharedData={this.state.sharedData.basic_info} />
+        <Header sharedData={this.state.sharedData.basic_info}
+                sharedBasicInfo={this.state.sharedData.basic_info}
+        />
         <div>
           <div
             onClick={() =>

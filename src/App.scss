@@ -52,6 +52,22 @@ header {
 	cursor: pointer;
 }
 
+.header-social-links{
+	font-size: large;
+}
+
+.header-social-links a,
+.header-social-links a:visited {
+	color: #1F1F1F;
+	font-size: 50px;
+	
+}
+
+.header-social-links a:hover,
+.header-social-links a:focus {
+	color: #474747;
+}
+
 .project-date {
 	font-size: 16px;
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -83,7 +99,7 @@ header h1 {
 	font-size: 400%;
 	text-align: center;
 	font-weight: 600 !important;
-	color: #353239;
+	color: #1F1F1F;
 	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 	margin: 0 auto 18px auto;
 	width: 100%;

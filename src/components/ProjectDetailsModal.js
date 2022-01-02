@@ -49,24 +49,6 @@ class ProjectDetailsModal extends Component {
         <div className="col-md-12">
           <div className="col-md-10 mx-auto" style={{ paddingBottom: "50px" }}>
             <div className="slider-tab">
-              <span
-                className="iconify slider-iconfiy"
-                data-icon="emojione:red-circle"
-                data-inline="false"
-                style={{ marginLeft: "5px" }}
-              ></span>{" "}
-              &nbsp;{" "}
-              <span
-                className="iconify slider-iconfiy"
-                data-icon="twemoji:yellow-circle"
-                data-inline="false"
-              ></span>{" "}
-              &nbsp;{" "}
-              <span
-                className="iconify slider-iconfiy"
-                data-icon="twemoji:green-circle"
-                data-inline="false"
-              ></span>
             </div>
             <AwesomeSlider
               cssModule={[AwesomeSliderStyles, AwesomeSliderStyles2]}
@@ -76,6 +58,12 @@ class ProjectDetailsModal extends Component {
               {img}
             </AwesomeSlider>
           </div>
+          <a
+            href={url}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="link-href"
+          >
           <div className="col-md-10 mx-auto">
             <h3 style={{ padding: "5px 5px 0 5px" }}>
               {title}
@@ -98,6 +86,7 @@ class ProjectDetailsModal extends Component {
               <ul className="list-inline mx-auto">{tech}</ul>
             </div>
           </div>
+          </a>
         </div>
       </Modal>
     );

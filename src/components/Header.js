@@ -50,7 +50,7 @@ class Header extends Component {
         <div className="row aligner" style={{height: '100%'}}>
           <div className="col-md-12">
             <div>
-              <span className="iconify header-icon" data-icon="la:laptop-code" data-inline="false"></span>
+              <span className="iconify header-icon" data-icon="la:mountain" data-inline="false"></span>
               <br/>
               <h1 className="mb-0">
                 <Typical steps={[name]} wrapper="p" />
@@ -58,9 +58,7 @@ class Header extends Component {
               <div className="title-container">
                 <HeaderTitleTypeAnimation />
               </div>
-              <div className="col-md-12">
-              <div className="social-links">{networks}</div>
-              </div>
+              <div className="social-links header-social-links">{networks}</div>
             </div>
           </div>
         </div>
