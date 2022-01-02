@@ -1,7 +1,7 @@
 {
   "basic_info": {
     "name": "Jake Johnson",
-    "titles": [ "Software Engineer", "Web3 Developer", "Embedded Systems Engineer" ],
+    "titles": [ "Software Engineer", "Web3 Developer" ],
     "social": [
       {
         "name": "github",
