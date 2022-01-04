@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import ProjectDetailsModal from "./ProjectDetailsModal";
+import Tilt from 'react-parallax-tilt';
 
 class Projects extends Component {
   constructor(props) {
@@ -11,11 +11,6 @@ class Projects extends Component {
   }
 
   render() {
-    let detailsModalShow = (data) => {
-      this.setState({ detailsModalShow: true, deps: data });
-    };
-
-    let detailsModalClose = () => this.setState({ detailsModalShow: false });
     if (this.props.resumeProjects && this.props.resumeBasicInfo) {
       var sectionName = this.props.resumeBasicInfo.section_name.projects;
       var projects = this.props.resumeProjects.map(function (projects) {
@@ -25,23 +20,36 @@ class Projects extends Component {
             key={projects.title}
             style={{ cursor: "pointer" }}
           >
-            <span className="portfolio-item d-block">
-              <div className="foto" onClick={() => detailsModalShow(projects)}>
-                <div>
-                  <img
-                    src={projects.images[0]}
-                    alt="projectImages"
-                    height="230"
-                    style={{marginBottom: 0, paddingBottom: 0, position: 'relative'}}
-                  />
-                  <span className="project-date">{projects.startDate}</span>
-                  <br />
-                  <p className="project-title-settings mt-3">
-                    {projects.title}
-                  </p>
-                </div>
-              </div>
-            </span>
+            <Tilt
+              tiltReverse = "true"
+              tiltMaxAngleX = "10"
+              tiltMaxAngleY = "10"
+            >
+              <a
+              href={projects.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="link-href"
+              >
+                <span className="portfolio-item d-block">
+                  <div className="foto">
+                    <div>
+                      <img
+                        src={projects.images[0]}
+                        alt="projectImages"
+                        height="230"
+                        style={{marginBottom: 0, paddingBottom: 0, position: 'relative'}}
+                      />
+                      <span className="project-date">{projects.startDate}</span>
+                      <br />
+                      <p className="project-title-settings mt-3">
+                        {projects.title}
+                      </p>
+                    </div>
+                  </div>
+                </span>
+              </a>
+            </Tilt>
           </div>
         );
       });
@@ -56,11 +64,6 @@ class Projects extends Component {
           <div className="col-md-12 mx-auto">
             <div className="row mx-auto">{projects}</div>
           </div>
-          <ProjectDetailsModal
-            show={this.state.detailsModalShow}
-            onHide={detailsModalClose}
-            data={this.state.deps}
-          />
         </div>
       </section>
     );
