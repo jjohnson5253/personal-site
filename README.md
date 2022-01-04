@@ -1,4 +1,4 @@
 # My Personal Site ⛰️
 Hosted at [jakejohnson.us](https://jakejohnson.us)
 
-Credits to [https://github.com/Dorota1997/react-frontend-dev-portfolio](Dorata1997) for the template!
+Credits to [Dorata1997](https://github.com/Dorota1997/react-frontend-dev-portfolio) for the template!
