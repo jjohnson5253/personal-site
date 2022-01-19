@@ -29,15 +29,6 @@
         "url": "https://www.slickleopards.com/"
       },
       {
-        "title": "⛰️ Ski Reservation Bot",
-        "startDate": "2020",
-        "description": "Automatically made ski reservations as they became available!",
-        "images": [
-          "images/portfolio/ski-reservation-bot/p1.png"
-        ],
-        "url": "https://github.com/jjohnson5253/ski-reservation-bot"
-      },
-      {
         "title": "📱 AR ML Trading Cards",
         "startDate": "2020",
         "description": "iOS app that uses AR/ML to distinguish Magic The Gathering Cards!",
@@ -45,6 +36,15 @@
           "images/portfolio/ar-ml-trading-cards/p1.png"
         ],
         "url": "https://github.com/jjohnson5253/ar-ml-trading-cards"
+      },
+      {
+        "title": "⛰️ Ski Reservation Bot",
+        "startDate": "2020",
+        "description": "Automatically made ski reservations as they became available!",
+        "images": [
+          "images/portfolio/ski-reservation-bot/p1.png"
+        ],
+        "url": "https://github.com/jjohnson5253/ski-reservation-bot"
       }
     ]
   }
