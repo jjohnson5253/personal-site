@@ -45,6 +45,9 @@ class Projects extends Component {
                       <p className="project-title-settings mt-3">
                         {projects.title}
                       </p>
+                      <p className="project-desc-settings mt-3">
+                        {projects.description}
+                      </p>
                     </div>
                   </div>
                 </span>

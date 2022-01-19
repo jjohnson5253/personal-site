@@ -11,87 +11,40 @@
     },
     "projects": [
       {
-        "title": "NFT 3D Gallery",
+        "title": "🖼️ NFT 3D Gallery",
         "startDate": "2021",
-        "description": "🖼️ A simple cross chain NFT gallery built in Unreal Engine 4!",
+        "description": "A simple cross chain NFT gallery built in Unreal Engine 4!",
         "images": [
-          "images/portfolio/nft-gallery/p1.png",
-          "images/portfolio/nft-gallery/p2.png"
+          "images/portfolio/nft-gallery/p1.png"
         ],
-        "url": "https://github.com/jjohnson5253/nft-gallery",
-        "technologies": [
-        ]
+        "url": "https://www.youtube.com/watch?v=XgU5Lh2sHco"
       },
       {
-        "title": "NFT Mint Site",
+        "title": "🦄 NFT Mint Site",
         "startDate": "2021",
-        "description": "Created an candy machine NFT minting site for Solana that allows a user to mint a randomly generated NFT that I created!",
+        "description": "Generated 3333 Solana NFTs and a minting site!",
         "images": [
-          "images/portfolio/nft-mint-site/p1.png",
-          "images/portfolio/nft-mint-site/p2.png"
+          "images/portfolio/nft-mint-site/p1.png"
         ],
-        "url": "https://www.slickleopards.com/",
-        "technologies": [
-        ]
+        "url": "https://www.slickleopards.com/"
       },
       {
-        "title": "Ski Reservation Bot",
+        "title": "⛰️ Ski Reservation Bot",
         "startDate": "2020",
-        "description": "We were tired of waiting for reservations to open up so we made this script to automatically reserve Ikon mountain ⛷️⛰️ reservations when they became available. 😎",
+        "description": "Automatically made ski reservations as they became available!",
         "images": [
-          "images/portfolio/auto-mountain-reserver/automtnres1.png",
-          "images/portfolio/auto-mountain-reserver/automtnres2.png"
+          "images/portfolio/ski-reservation-bot/p1.png"
         ],
-        "url": "https://github.com/jjohnson5253/auto_mountain_reserver",
-        "technologies": [
-          {
-            "class": "devicon-python-plain",
-            "name": "Python"
-          }
-        ]
-      }
-    ],
-    "experience": [
-      {
-        "company": "Manifest",
-        "title": "Web3 Consultant",
-        "years": "11.2021 - present",
-        "mainTech": [
-          "Unreal Engine"
-        ],
-        "technologies": [
-          "Unreal Engine",
-          "Ethereum",
-          "C++",
-          "Solidity"
-        ]
+        "url": "https://github.com/jjohnson5253/ski-reservation-bot"
       },
       {
-        "company": "Freelance",
-        "title": "Web3 Developer",
-        "years": "01.2021 - 11.2021",
-        "mainTech": [
-          "Solana"
+        "title": "📱 AR ML Trading Cards",
+        "startDate": "2020",
+        "description": "iOS app that uses AR/ML to distinguish Magic The Gathering Cards!",
+        "images": [
+          "images/portfolio/ar-ml-trading-cards/p1.png"
         ],
-        "technologies": [
-          "Solana",
-          "Rust",
-          "React",
-          "JavaScript"
-        ]
-      },
-      {
-        "company": "Medtronic",
-        "title": "Embedded Systems Software Engineer",
-        "years": "01.2020 - present",
-        "mainTech": [
-          "C++"
-        ],
-        "technologies": [
-          "C++",
-          "Python",
-          "GoogleTest"
-        ]
+        "url": "https://github.com/jjohnson5253/ar-ml-trading-cards"
       }
     ]
   }
