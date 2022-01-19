@@ -1,3 +1,7 @@
+//
+// This file contains the wrapper for the home page and all of it's components
+//
+
 import React, { Component } from "react";
 import $ from "jquery";
 import "../App.scss";
@@ -5,6 +9,8 @@ import Header from "./Header";
 import Footer from "./Footer";
 import Projects from "./Projects";
 import Skills from "./Skills";
+// uncomment this to use links for multipage
+//import { NavLink } from "react-router-dom";
 
 // TODO: remove the language code. Right now it's just disabled
 class Home extends Component {
@@ -54,8 +60,10 @@ class Home extends Component {
 
   render() {
     return (
-      
       <div>
+        {/* Remove this comment to see how you can have multiple pages
+        <NavLink to="/TestPage">TestPage</NavLink>
+        */}
         <Header sharedData={this.state.sharedData.basic_info}
                 sharedBasicInfo={this.state.sharedData.basic_info}
         />
