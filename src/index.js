@@ -12,5 +12,10 @@ window.$secondaryLanguage = 'pl';
 window.$primaryLanguageIconId = 'primary-lang-icon';
 window.$secondaryLanguageIconId = 'secondary-lang-icon';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(
+    <React.StrictMode>
+    <App />
+    </React.StrictMode>, 
+    document.getElementById('root')
+);
 serviceWorker.register();
