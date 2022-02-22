@@ -4,14 +4,19 @@
     "titles": [ "Web3 Development", "Embedded Systems" ],
     "social": [
       {
-        "name": "github",
-        "url": "https://github.com/jjohnson5253",
-        "class": "fab fa-github"
+        "name": "youtube",
+        "url": "https://www.youtube.com/channel/UC9kDjIoRAYGENTTuxC900sw",
+        "class": "fab fa-youtube"
       },
       {
         "name": "twitter",
         "url": "https://twitter.com/jjohnson5253",
         "class": "fab fa-twitter"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/jjohnson5253",
+        "class": "fab fa-github"
       },
       {
         "name": "telegram",
