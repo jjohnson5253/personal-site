@@ -11,6 +11,24 @@
     },
     "projects": [
       {
+        "title": "🦄🐃 ETHDenver22 Demo",
+        "startDate": "2022",
+        "description": "Presented our project in front of Vitalik Buterin!",
+        "images": [
+          "images/portfolio/ethdenver22-presentation/p1.jpg"
+        ],
+        "url": "https://youtu.be/yq4oFo7s8Lk"
+      },
+      {
+        "title": "🕹️ UE4 Polygon Trade/Mint",
+        "startDate": "2022",
+        "description": "Trading and minting Polygon NFTs in Unreal Engine 4!",
+        "images": [
+          "images/portfolio/ethdenver22/p1.png"
+        ],
+        "url": "https://youtu.be/FsL4Fs5hd14"
+      },
+      {
         "title": "🖼️ NFT 3D Gallery",
         "startDate": "2021",
         "description": "A simple cross chain NFT gallery built in Unreal Engine 4!",

@@ -1,7 +1,7 @@
 {
   "basic_info": {
     "name": "Jake Johnson",
-    "titles": [ "Software Engineer", "Embedded Systems", "Web3 Development" ],
+    "titles": [ "Web3 Development", "Embedded Systems" ],
     "social": [
       {
         "name": "github",
@@ -10,8 +10,13 @@
       },
       {
         "name": "twitter",
-        "url": "https://twitter.com/Kodiak847",
+        "url": "https://twitter.com/jjohnson5253",
         "class": "fab fa-twitter"
+      },
+      {
+        "name": "telegram",
+        "url": "https://t.me/jjohnson5253",
+        "class": "fab fa-telegram"
       },
       {
         "name": "linkedin",
@@ -28,11 +33,15 @@
         "level": "65"
       },
       {
-        "name": "Ethereum",
-        "level": "95"
+        "name": "Python",
+        "level": "70"
       },
       {
-        "name": "Solidity",
+        "name": "JavaScript",
+        "level": "70"
+      },
+      {
+        "name": "Ethereum",
         "level": "95"
       },
       {
@@ -40,19 +49,15 @@
         "level": "95"
       },
       {
-        "name": "Rust",
+        "name": "Solidity",
         "level": "95"
       },
       {
-        "name": "JavaScript",
-        "level": "70"
+        "name": "React",
+        "level": "95"
       },
       {
         "name": "Unreal Engine",
-        "level": "70"
-      },
-      {
-        "name": "Python",
         "level": "70"
       }
     ]
