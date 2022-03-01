@@ -14,7 +14,7 @@ class OpenSource extends Component {
                 style={{ color: "#fff" }}
               >
                 <p className={openSource.class} style={{ fontSize: "220%" }}>
-                  <p style={{ textDecoration: "none" }}
+                  <p
                     className="text-center"
                     style={{ fontSize: "50%", marginTop: "4px" }}
                   >
