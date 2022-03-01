@@ -13,7 +13,7 @@ class OpenSource extends Component {
               <div className="text-center openSource-tile"
                 style={{ color: "#fff" }}
               >
-                <p className={openSource.class} style={{ fontSize: "220%" }}>
+                <div className={openSource.class} style={{ fontSize: "220%" }}>
                   <p
                     className="text-center"
                     style={{ fontSize: "50%", marginTop: "4px" }}
@@ -26,7 +26,7 @@ class OpenSource extends Component {
                   >
                     {openSource.desc}
                   </p>
-                </p>
+                </div>
               </div>
               </a>
             </span>
