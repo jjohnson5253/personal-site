@@ -17,7 +17,8 @@
         "images": [
           "images/portfolio/eth-denver-22-presentation.jpg"
         ],
-        "url": "https://youtu.be/yq4oFo7s8Lk"
+        "url": "https://youtu.be/yq4oFo7s8Lk",
+        "isExternal": true
       },
       {
         "title": "🕹️ UE4 Polygon Trade/Mint",
@@ -26,7 +27,8 @@
         "images": [
           "images/portfolio/eth-denver-22.png"
         ],
-        "url": "https://youtu.be/FsL4Fs5hd14"
+        "url": "https://youtu.be/FsL4Fs5hd14",
+        "isExternal": true
       },
       {
         "title": "🖼️ NFT 3D Gallery",
@@ -35,7 +37,8 @@
         "images": [
           "images/portfolio/nft-gallery.png"
         ],
-        "url": "https://www.youtube.com/watch?v=XgU5Lh2sHco"
+        "url": "https://www.youtube.com/watch?v=XgU5Lh2sHco",
+        "isExternal": true
       },
       {
         "title": "🐆 NFT Mint Site",
@@ -44,7 +47,8 @@
         "images": [
           "images/portfolio/mint-site.png"
         ],
-        "url": "https://www.slickleopards.com/"
+        "url": "https://www.slickleopards.com/",
+        "isExternal": true
       },
       {
         "title": "📱 AR ML Trading Cards",
@@ -53,7 +57,8 @@
         "images": [
           "images/portfolio/ar-cards.png"
         ],
-        "url": "https://github.com/jjohnson5253/ar-ml-trading-cards"
+        "url": "https://github.com/jjohnson5253/ar-ml-trading-cards",
+        "isExternal": true
       },
       {
         "title": "⛰️ Ski Reservation Bot",
@@ -62,7 +67,8 @@
         "images": [
           "images/portfolio/ski-reservation-bot.png"
         ],
-        "url": "https://github.com/jjohnson5253/ski-reservation-bot"
+        "url": "https://github.com/jjohnson5253/ski-reservation-bot",
+        "isExternal": true
       },
       {
         "title": "🎮 Phaser Minigame",
@@ -71,7 +77,8 @@
         "images": [
           "images/portfolio/protect-your-land.png"
         ],
-        "url": "games/protect-your-land/protect-your-land.html"
+        "url": "games/protect-your-land/protect-your-land.html",
+        "isExternal": false
       },
       {
         "title": "🕹️ PongJS",
@@ -80,7 +87,8 @@
         "images": [
           "images/portfolio/pong.png"
         ],
-        "url": "games/pong/pong.html"
+        "url": "games/pong/pong.html",
+        "isExternal": false
       }
     ]
   }

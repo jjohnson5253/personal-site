@@ -12,6 +12,8 @@ class Projects extends Component {
 
   render() {
     if (this.props.resumeProjects && this.props.resumeBasicInfo) {
+      var pongName = "🕹️ PongJS";
+      var phaserName = "🎮 Phaser Minigame";
       var sectionName = this.props.resumeBasicInfo.section_name.projects;
       var projects = this.props.resumeProjects.map(function (projects) {
         return (
@@ -25,6 +27,7 @@ class Projects extends Component {
               tiltMaxAngleX = "10"
               tiltMaxAngleY = "10"
             >
+              {projects.isExternal ?
               <a
               href={projects.url}
               target="_blank"
@@ -52,6 +55,32 @@ class Projects extends Component {
                   </div>
                 </span>
               </a>
+              :
+              <a
+              href={projects.url}
+              >
+                <span className="portfolio-item d-block">
+                  <div className="foto">
+                    <div>
+                      <img
+                        src={projects.images[0]}
+                        alt="projectImages"
+                        height="230"
+                        style={{marginBottom: 0, paddingBottom: 0, position: 'relative'}}
+                      />
+                      <span className="project-date">{projects.startDate}</span>
+                      <br />
+                      <p className="project-title-settings mt-3">
+                        {projects.title}
+                      </p>
+                      <p className="project-desc-settings mt-3">
+                        {projects.description}
+                      </p>
+                    </div>
+                  </div>
+                </span>
+              </a>
+              }
             </Tilt>
           </div>
         );
