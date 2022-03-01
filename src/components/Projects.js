@@ -27,6 +27,9 @@ class Projects extends Component {
               tiltMaxAngleX = "10"
               tiltMaxAngleY = "10"
             >
+              {/* Render project with anchor tag that goes externally if there is no demo on my site */}
+              {/* Just made two project divs (one external, one not) since the conditional render needed closing anchor tag */}
+              {/* Future enhancement: Maybe you can concatenate the return divs in react somehow */}
               {projects.isExternal ?
               <a
               href={projects.url}
