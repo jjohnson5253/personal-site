@@ -33,7 +33,7 @@
         "startDate": "2021",
         "description": "A simple cross chain NFT gallery built in Unreal Engine 4!",
         "images": [
-          "images/portfolio/nft-gallery/p1.png"
+          "images/portfolio/nft-gallery/p3.png"
         ],
         "url": "https://www.youtube.com/watch?v=XgU5Lh2sHco"
       },
@@ -42,7 +42,7 @@
         "startDate": "2021",
         "description": "Generated 3333 Solana NFTs and a minting site!",
         "images": [
-          "images/portfolio/nft-mint-site/p1.png"
+          "images/portfolio/nft-mint-site/p3.png"
         ],
         "url": "https://www.slickleopards.com/"
       },
@@ -51,7 +51,7 @@
         "startDate": "2020",
         "description": "iOS app that uses AR/ML to distinguish Magic The Gathering Cards!",
         "images": [
-          "images/portfolio/ar-ml-trading-cards/p1.png"
+          "images/portfolio/ar-ml-trading-cards/p2.png"
         ],
         "url": "https://github.com/jjohnson5253/ar-ml-trading-cards"
       },
@@ -60,7 +60,7 @@
         "startDate": "2020",
         "description": "Automatically made ski reservations as they became available!",
         "images": [
-          "images/portfolio/ski-reservation-bot/p1.png"
+          "images/portfolio/ski-reservation-bot/p3.png"
         ],
         "url": "https://github.com/jjohnson5253/ski-reservation-bot"
       }
