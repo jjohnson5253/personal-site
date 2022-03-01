@@ -23,6 +23,9 @@ function preload(){
 	game.load.image('bullet', 'assets/bullet.png');
 	game.load.image('colonist', 'assets/colonist.png');
 	game.load.image('menu', 'assets/menu.png');
+
+	game.scale.pageAlignHorizontally = true;
+	game.scale.pageAlignVertically = true;
 }
 
 function create(){
