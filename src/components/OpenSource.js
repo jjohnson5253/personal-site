@@ -11,7 +11,7 @@ class OpenSource extends Component {
               <a href={openSource.url} target="_blank" rel="noopener noreferrer" 
                 style={{ textDecoration: "none" }}>
               <div className="text-center openSource-tile"
-                style={{ color: "#fff" }}
+                style={{ color: "black" }}
               >
                 <div className={openSource.class} style={{ fontSize: "220%" }}>
                   <p
