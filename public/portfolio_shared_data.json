@@ -31,6 +31,15 @@
     ],
     "image": "myProfile.jpeg"
   },
+  "openSource": {
+    "projects" : [
+      {
+        "name": "🎨 Hashlips Art Engine",
+        "desc": "Added a Node.js tool to determine rarity of attributes in generated art",
+        "url": "https://github.com/HashLips/hashlips_art_engine/commit/c62805947ec44077b78a7a67959b9817943a4826"
+      }
+    ]
+  },
   "skills": {
     "icons": [
       {

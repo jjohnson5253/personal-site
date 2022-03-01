@@ -80,6 +80,27 @@ header {
 	color: white;
 }
 
+.openSource-tile {
+	background-color: transparentize(#F8F5F4, 0.95);
+	padding: 10px 10px 5px 10px;
+	width: 260px;
+	margin: 5px 0 5px 0;
+	border-radius: 8px;
+}
+
+.openSource-tile:hover {
+	-webkit-transform: scale(1.05);
+	-moz-transform: scale(1.05);
+	transform: scale(1.05);
+	z-index: 10;
+	-webkit-box-shadow: 0 5px 5px rgba(0, 0, 0, .7);
+	-moz-box-shadow: 0 5px 5px rgba(0, 0, 0, .7);
+	box-shadow: 0 5px 5px rgba(0, 0, 0, .7);
+
+	text-decoration: none;
+	color: inherit;
+}
+
 .skills-tile {
 	background-color: transparentize(#F8F5F4, 0.95);
 	padding: 10px 10px 5px 10px;
@@ -414,6 +435,14 @@ header h1 {
 	width: 100%;
 	overflow: hidden;
 	padding-bottom: 10%;
+}
+
+#openSource {
+	background: #1F1F1F;
+	min-height: 200px;
+	width: 100%;
+	overflow: hidden;
+	padding-bottom: 1%;
 }
 
 .section-title {

@@ -9,6 +9,7 @@ import Header from "./Header";
 import Footer from "./Footer";
 import Projects from "./Projects";
 import Skills from "./Skills";
+import OpenSource from "./OpenSource";
 // uncomment this to use links for multipage
 //import { NavLink } from "react-router-dom";
 
@@ -73,6 +74,10 @@ class Home extends Component {
         />
         <Projects
           resumeProjects={this.state.resumeData.projects}
+          resumeBasicInfo={this.state.resumeData.basic_info}
+        />
+        <OpenSource
+          sharedOpenSource={this.state.sharedData.openSource}
           resumeBasicInfo={this.state.resumeData.basic_info}
         />
         <Footer sharedBasicInfo={this.state.sharedData.basic_info} />
