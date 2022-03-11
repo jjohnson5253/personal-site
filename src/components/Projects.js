@@ -12,8 +12,6 @@ class Projects extends Component {
 
   render() {
     if (this.props.resumeProjects && this.props.resumeBasicInfo) {
-      var pongName = "🕹️ PongJS";
-      var phaserName = "🎮 Phaser Minigame";
       var sectionName = this.props.resumeBasicInfo.section_name.projects;
       var projects = this.props.resumeProjects.map(function (projects) {
         return (
