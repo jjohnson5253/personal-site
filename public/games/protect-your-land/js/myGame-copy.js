@@ -18,7 +18,7 @@ var lives = 3;
 var colonistCount = 8;
 
 function preload(){
-	game.load.spritesheet('native', 'assets/native-copy.png', 32, 48)
+	game.load.spritesheet('native', 'assets/native-copy-copy.png', 32, 48)
 	game.load.image('arrow', 'assets/arrow.png');
 	game.load.image('bullet', 'assets/bullet.png');
 	game.load.image('colonist', 'assets/colonist-copy.png');
