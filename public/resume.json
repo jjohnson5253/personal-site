@@ -9,26 +9,6 @@
         "experience": "Experience"
       }
     },
-    "games": [
-      {
-        "title": "🎮 Phaser Minigame",
-        "startDate": "2015",
-        "description": "Javascript game coded with the Phaser library!",
-        "images": [
-          "images/portfolio/protect-your-land.png"
-        ],
-        "url": "games/protect-your-land/protect-your-land.html"
-      },
-      {
-        "title": "🕹️ PongJS",
-        "startDate": "2015",
-        "description": "Classic Pong coded from scratch in Javascript!",
-        "images": [
-          "images/portfolio/pong.png"
-        ],
-        "url": "games/pong/pong.html"
-      }
-    ],
     "projects": [
       {
         "title": "🦄🐃 ETHDenver22 Demo",
@@ -83,6 +63,26 @@
           "images/portfolio/ski-reservation-bot.png"
         ],
         "url": "https://github.com/jjohnson5253/ski-reservation-bot"
+      }
+    ],
+    "games": [
+      {
+        "title": "🎮 Phaser 2D Shooter",
+        "startDate": "2015",
+        "description": "Javascript game coded with the Phaser library!",
+        "images": [
+          "images/portfolio/protect-your-land-copy.png"
+        ],
+        "url": "games/protect-your-land/protect-your-land.html"
+      },
+      {
+        "title": "🕹️ PongJS",
+        "startDate": "2015",
+        "description": "Classic Pong coded from scratch in Javascript!",
+        "images": [
+          "images/portfolio/pong.png"
+        ],
+        "url": "games/pong/pong.html"
       }
     ]
   }
