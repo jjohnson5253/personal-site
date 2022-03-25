@@ -3,7 +3,7 @@ import React, { Component } from "react";
 class OpenSource extends Component {
   render() {
     if (this.props.sharedOpenSource && this.props.resumeBasicInfo) {
-      var sectionName = "Open Source Contributions ❤️";
+      var sectionName = "❤️ Open Source Contributions";
       var openSource = this.props.sharedOpenSource.projects.map(function (openSource, i) {
         return (
           <li className="list-inline-item mx-3" key={i}>

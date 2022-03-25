@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Tilt from 'react-parallax-tilt';
 
-class Projects extends Component {
+class Games extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -11,9 +11,9 @@ class Projects extends Component {
   }
 
   render() {
-    if (this.props.resumeProjects && this.props.resumeBasicInfo) {
-      var sectionName = "🛠️ Projects";
-      var projects = this.props.resumeProjects.map(function (projects) {
+    if (this.props.resumeGames && this.props.resumeBasicInfo) {
+      var sectionName = "🕹️ Games";
+      var projects = this.props.resumeGames.map(function (projects) {
         return (
           <div
             className="col-sm-12 col-md-6 col-lg-4"
@@ -70,4 +70,4 @@ class Projects extends Component {
   }
 }
 
-export default Projects;
+export default Games;
