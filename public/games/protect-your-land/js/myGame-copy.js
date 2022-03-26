@@ -175,7 +175,7 @@ function update(){
 	}
 
 	if(colonistCount == 0){
-		game.add.text(100, 100, 'YOU PROTECTED YOUR LAND!', {fontSize: '32px', fill: '#f00'});
+		game.add.text(100, 100, 'YOU WON!', {fontSize: '32px', fill: '#f00'});
 		game.add.text(200, 200, 'refresh to play again', {fontSize: '32px', fill: '#f00'});
 		game.paused = true;
 	}
