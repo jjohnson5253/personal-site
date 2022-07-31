@@ -29,6 +29,10 @@ html {
 	width: 150px;
 }
 
+#metamask-logo {
+	margin-bottom: 10px;
+}
+
 header {
 	position: relative;
 	height: 520px;
@@ -54,13 +58,13 @@ header {
 
 .header-social-links{
 	font-size: large;
+	margin-top: 0px !important;
 }
 
 .header-social-links a,
 .header-social-links a:visited {
 	color: #1F1F1F;
 	font-size: 50px;
-	
 }
 
 .header-social-links a:hover,

@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import Typical from "react-typical";
+import ModelViewer from '@metamask/logo';
+import model from '../fox.json';
 
 class Header extends Component {
   titles = [];
@@ -8,6 +10,28 @@ class Header extends Component {
     super();
     this.state = { checked: false };
     this.onThemeSwitchChange = this.onThemeSwitchChange.bind(this);
+  }
+
+  componentDidMount() {
+
+    // for some reason, I couldn't put this outside componentDidMount
+    const viewer = ModelViewer({
+      // Dictates whether width & height are px or multiplied
+      pxNotRatio: true,
+      width: 200,
+      height: 200,
+  
+      // To make the face follow the mouse.
+      followMouse: true,
+  
+      // head should slowly drift (overrides lookAt)
+      slowDrift: false,
+      meshJson: model
+    });
+
+    // add model to DOM
+    const container = document.getElementById('model');
+    container.appendChild(viewer.container);
   }
 
   onThemeSwitchChange(checked) {
@@ -50,7 +74,7 @@ class Header extends Component {
         <div className="row aligner" style={{height: '100%'}}>
           <div className="col-md-12">
             <div>
-              <span className="iconify header-icon" data-icon="la:mountain" data-inline="false"></span>
+              <div id="model"></div>
               <br/>
               <h1 className="mb-0">
                 <p>{[name]}</p>

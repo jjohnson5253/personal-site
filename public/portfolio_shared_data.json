@@ -1,13 +1,8 @@
 {
   "basic_info": {
     "name": "Jake Johnson",
-    "titles": [ "Web3 Development", "Embedded Systems" ],
+    "titles": [ "Web3", "Gaming" ],
     "social": [
-      {
-        "name": "youtube",
-        "url": "https://www.youtube.com/channel/UC9kDjIoRAYGENTTuxC900sw",
-        "class": "fab fa-youtube"
-      },
       {
         "name": "twitter",
         "url": "https://twitter.com/jjohnson5253",
@@ -22,6 +17,11 @@
         "name": "linkedin",
         "url": "https://www.linkedin.com/in/jake-e-johnson/",
         "class": "fab fa-linkedin"
+      },
+      {
+        "name": "youtube",
+        "url": "https://www.youtube.com/channel/UC9kDjIoRAYGENTTuxC900sw",
+        "class": "fab fa-youtube"
       }
     ],
     "image": "myProfile.jpeg"
@@ -38,16 +38,12 @@
   "skills": {
     "icons": [
       {
-        "name": "C++",
-        "level": "65"
-      },
-      {
-        "name": "Python",
+        "name": "TypeScript",
         "level": "70"
       },
       {
-        "name": "JavaScript",
-        "level": "70"
+        "name": "React/Next",
+        "level": "95"
       },
       {
         "name": "Ethereum",
@@ -58,12 +54,12 @@
         "level": "95"
       },
       {
-        "name": "Solidity",
-        "level": "95"
+        "name": "Python",
+        "level": "70"
       },
       {
-        "name": "React",
-        "level": "95"
+        "name": "C++",
+        "level": "65"
       },
       {
         "name": "Unreal Engine",
