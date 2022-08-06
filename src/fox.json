@@ -109,7 +109,7 @@
         [2, 1, 4]
       ],
       "name": "left ear",
-      "gradient": "left-ear-gradient"
+      "color": [70, 70, 70]
     },
     {
       "faces": [
@@ -128,7 +128,7 @@
         [55, 59, 57]
       ],
       "name": "right ear",
-      "gradient": "right-ear-gradient"
+      "color": [70, 70, 70]
     },
     {
       "color": [22, 22, 22],
@@ -146,25 +146,25 @@
         [11, 16, 14]
       ],
       "name": "left inner eye",
-      "gradient": "left-inner-eye-gradient"
+      "color": [170, 170, 170]
     },
     {
       "faces": [[17, 12, 18]],
       "name": "left outer eye",
-      "gradient": "left-outer-eye-gradient"
+      "color": [170, 170, 170]
     },
     {
       "faces": [[41, 64, 37]],
       "name": "right lower inner eye",
-      "gradient": "right-inner-eye-gradient"
+      "color": [170, 170, 170]
     },
     {
       "faces": [[67, 68, 66]],
       "name": "right outer eye",
-      "gradient": "right-outer-eye-gradient"
+      "color": [170, 170, 170]
     },
     {
-      "color": [223, 117, 84],
+      "color": [100, 100, 100],
       "faces": [
         [19, 20, 21],
         [21, 22, 19],
@@ -196,7 +196,7 @@
       "name": "lower chin"
     },
     {
-      "color": [255, 159, 90],
+      "color": [70, 70, 70],
       "faces": [
         [21, 20, 24],
         [24, 31, 21]
@@ -204,7 +204,7 @@
       "name": "left lower snout"
     },
     {
-      "color": [255, 159, 90],
+      "color": [70, 70, 70],
       "faces": [
         [69, 71, 70],
         [71, 69, 75]
@@ -212,7 +212,7 @@
       "name": "right lower snout"
     },
     {
-      "color": [147, 131, 250],
+      "color": [90, 90, 90],
       "faces": [[31, 24, 18]],
       "name": "left upper snout"
     },
@@ -222,7 +222,7 @@
         [16, 17, 6]
       ],
       "name": "left forehead",
-      "gradient": "left-forehead-gradient"
+      "color": [160, 160, 160]
     },
     {
       "faces": [
@@ -230,15 +230,15 @@
         [33, 34, 24]
       ],
       "name": "left lower cheek",
-      "gradient": "left-lower-cheek-gradient"
+      "color": [160, 160, 160]
     },
     {
       "faces": [[5, 4, 35]],
       "name": "left top ear",
-      "gradient": "left-top-ear-gradient"
+      "color": [170, 170, 170]
     },
     {
-      "color": [147, 131, 250],
+      "color": [90, 90, 90],
       "faces": [[75, 68, 71]],
       "name": "right upper snout"
     },
@@ -248,7 +248,7 @@
         [40, 59, 58]
       ],
       "name": "right forhead",
-      "gradient": "right-forehead-gradient"
+      "color": [160, 160, 160]
     },
     {
       "faces": [
@@ -256,15 +256,15 @@
         [77, 78, 71]
       ],
       "name": "right lower cheek",
-      "gradient": "right-lower-cheek-gradient"
+      "color": [160, 160, 160]
     },
     {
       "faces": [[24, 34, 18]],
       "name": "left middle cheek",
-      "gradient": "left-middle-cheek-gradient"
+      "color": [110, 110, 110]
     },
     {
-      "color": [156, 90, 221],
+      "color": [80, 80, 80],
       "faces": [
         [16, 13, 12],
         [12, 17, 16],
@@ -275,10 +275,10 @@
     {
       "faces": [[71, 68, 76]],
       "name": "right middle cheek",
-      "gradient": "right-middle-cheek-gradient"
+      "color": [110, 110, 110]
     },
     {
-      "color": [156, 90, 221],
+      "color": [80, 80, 80],
       "faces": [
         [40, 67, 66],
         [66, 65, 40],
@@ -314,7 +314,7 @@
         [10, 6, 17]
       ],
       "name": "left upper cheek",
-      "gradient": "left-upper-cheek-gradient"
+      "color": [100, 100, 100]
     },
     {
       "faces": [
@@ -323,7 +323,7 @@
         [18, 12, 11]
       ],
       "name": "left below eye",
-      "gradient": "left-below-eye-gradient"
+      "color": [160, 160, 160]
     },
     {
       "faces": [
@@ -337,7 +337,7 @@
         [40, 16, 5]
       ],
       "name": "forehead",
-      "gradient": "forehead-gradient"
+      "color": [140, 140, 140]
     },
     {
       "faces": [
@@ -347,7 +347,7 @@
         [63, 67, 58]
       ],
       "name": "right upper cheek",
-      "gradient": "right-upper-cheek-gradient"
+      "color": [100, 100, 100]
     },
     {
       "faces": [
@@ -356,7 +356,7 @@
         [68, 64, 66]
       ],
       "name": "right below eye",
-      "gradient": "right-below-eye-gradient"
+      "color": [160, 160, 160]
     },
     {
       "faces": [
@@ -418,17 +418,17 @@
         [52, 87, 48]
       ],
       "name": "back",
-      "gradient": "back-gradient"
+      "color": [110, 110, 110]
     },
     {
       "faces": [[57, 59, 79]],
       "name": "right top ear",
-      "gradient": "right-top-ear-gradient"
+      "color": [170, 170, 170]
     },
     {
       "faces": [[64, 41, 40]],
       "name": "right inner upper eye",
-      "gradient": "right-inner-eye-gradient"
+      "color": [170, 170, 170]
     }
   ],
   "gradients": {
