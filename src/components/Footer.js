@@ -1,6 +1,10 @@
 import React, { Component } from "react";
 
 class Footer extends Component {
+
+  date = new Date();
+  year = date.getFullYear()
+
   render() {
     if (this.props.sharedBasicInfo) {
       var networks = this.props.sharedBasicInfo.social.map(function (network) {
@@ -25,7 +29,7 @@ class Footer extends Component {
                 Copyright &copy;{" "}
                 {this.props.sharedBasicInfo
                   ? this.props.sharedBasicInfo.name
-                  : "???"} 2022
+                  : "???"} {this.year}
               </small>
             </div>
           </div>
